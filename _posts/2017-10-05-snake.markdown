@@ -5,7 +5,7 @@ date: 2017-10-05T11:27:00.000Z
 author: Alex Stroud
 categories:
   - Snake Game
-img: post01.jpg
+img: snake-game.jpg
 thumb: c_thumb.jpg
 published: true
 ---
