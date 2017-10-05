@@ -10,6 +10,6 @@ thumb: c_thumb.jpg
 published: true
 ---
 
-<b>Snake</b> is the first game that we will be making outside of the practical sessions each week. We have been given a framework to work with that I need to start looking through and trying to understand the different components of it. After I have learned the framework, I can then begin to start planning out how I will go about making the snake game in conjunction with the marking scheme.
+<b>Snake</b> is the first game that we will be making outside of the practical sessions each week. We have been given a framework to work with that I need to start looking through and trying to understand the different components of it. After I have learned the framework, I can then begin to start planning out how I will go about making the snake game in conjunction with the marking scheme. We are using the Awesome Sauce Game Engine (ASGE) to create all of the games for this year's work.
 
 The deadline for this first game is Wednesday 8th November at 1:59PM
