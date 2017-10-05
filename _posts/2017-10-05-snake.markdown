@@ -2,7 +2,7 @@
 layout: post
 title: Snake Game Planning
 date: 2017-10-05T11:27:00.000Z
-author: James HuxtableAlex Stroud
+author: Alex Stroud
 categories:
   - Snake Game
 img: post01.jpg
