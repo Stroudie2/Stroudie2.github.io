@@ -6,7 +6,7 @@ author: Alex Stroud
 categories:
   - Snake Game
 img: snake-game.jpg
-thumb: c_thumb.jpg
+thumb: snake-game.jpg
 published: true
 ---
 
