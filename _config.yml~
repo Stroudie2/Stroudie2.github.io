@@ -63,13 +63,13 @@ email: james2.huxtable@uwe.ac.uk
 
 # Members information. Shown on About page.
 members:
-  - name: James Huxtable
-    position: Da Man!
-    text: I am a keen and passionate games developer, whose love of programming extends to mentoring others to allow them to develop games for themselves.
+  - name: Alex Stroud
+    position: Junior Games Developer
+    text: I am passionate about the world of video games and am actively working towards becoming a better developer.
     img: profile_1.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:james2.huxtable@uwe.ac.uk
+        url: mailto:alexander2.stroud@live.uwe.ac.uk
       - title: twitter
         url: http://twitter.com/HuxyUK
  
