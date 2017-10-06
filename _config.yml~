@@ -71,7 +71,7 @@ members:
       - title: envelope #use for email address
         url: mailto:alexander2.stroud@live.uwe.ac.uk
       - title: twitter
-        url: http://twitter.com/HuxyUK
+        url: 
  
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "Those who can do and those who can't teach games design."
