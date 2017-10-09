@@ -1,1 +1,22 @@
+---
+layout: post
+title: Ludo Board Game Adaptions
+date: 2017-10-09T19:58:00.000Z
+author: Alex Stroud
+categories:
+  - Board Games
+  - Game Adaptions
+img: snake-game.jpg
+thumb: snake-game.jpg
+published: true
+---
 
+In today's tutorial for "Play and Games", we spent the time in our groups playing the popular board game "Ludo" and coming up with some possible variations to the gameplay to try and make it more of a skill-based games as oppose to being all chance based.
+
+The basic rules behind the game of Ludo is that there are one to four players who each have their own corner on the board and have four pieces that they muct move all the way around the board, and back into the centre squares for each of their pieces, using dice rolls. If another player rolls a number that causes their piece to land on yours, your piece will be sent back to the starting point where you will have to roll a six again to be able to start that piece once again. You cannot pass somebody else's piece that is in front of you unless you roll the right number to take that piece.
+
+The variation we came up with for this was to add in new paths to each corner of the game board, that would take longer to get around, but would mean you are able to move your piece down there if there is another piece blocking the path of the main route. Along with this, we invented a system of there being given spots on these new paths which, if landed upon, would mean you have to draw a card that has an effect on the game. We decided that these should be mostly negative cards that will have a bad effect on you playing, and a small chance that you would pick a card that could help you in the game. In this first variation, we simply did this with a dice roll as oppose to having actual cards, so different sides of the dice would cause different effects to the game. These included having your piece sent back to the last piece on the board, taking it's spot and sending that piece back to home, missing your next turn, having your piece immediately sent back to home, having to go back the number of spaces you roll on a dice, and the positive of being able to remove somebody else's piece from the board without effecting your own.
+
+These new effects proved to make quite an intesresting change to the game, if only a slight change to the main gameplay. For example, the effect which would sent you back to the last piece on the board could be seen as good and bad. It is bad for you as you could potentially end up moving quite far backwards. However, you are also screwing over the player who's piece was in that location, as theirs will get sent all the way back to home.
+
+This was just a first time design change we came up with in an hours session that I think could be further polished to make some potentially fun and challenging changes to the Ludo game. However, at the end of it we realised that although making the game slightly more intesresting, the rules we had implemented hadn't really changed the core gameplay much from being chance-based to skill-based. It perhaps made a slight difference to this scale, but not as big as we had hoped.
