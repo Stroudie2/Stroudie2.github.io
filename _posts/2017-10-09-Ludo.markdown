@@ -6,8 +6,8 @@ author: Alex Stroud
 categories:
   - Board Games
   - Game Adaptions
-img: snake-game.jpg
-thumb: snake-game.jpg
+img: 20171009_154406.jpg
+thumb: 20171009_154406.jpg
 published: true
 ---
 
