@@ -17,6 +17,7 @@ The snake game will be made using the ASGE, written in C++. It will require the 
 
 The food that appears on the map will have to be calculated to appear in a random spot that is not one of the positions currently taken up by the snake. In order for the snake to show in the correct direction that it is moving, I will need a condition that checks where the tail point of the snake currently is and the direction it is moving in, and it will have to add a new bit onto the correct position with the correct facement.
 
+
 <b>Arrays</b>
 
 There will be a few different arrays in this game that will represnet different things. There will need to be an array for the empty game board where everything will take place and there will need to be arrays for the different things that could take up co-ordinates on the game board (part of the snake, food, walls, empty movable space). The different options for what a cell may currently be could be done through the use of enums for the different options. So for example, an enum for "cell state" that could include within it the different states a co-ordinate on the board can be in.
