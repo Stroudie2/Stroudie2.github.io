@@ -22,3 +22,7 @@ The food that appears on the map will have to be calculated to appear in a rando
 <b>Arrays</b>
 
 There will be a few different arrays in this game that will represnet different things. There will need to be an array for the empty game board where everything will take place and there will need to be arrays for the different things that could take up co-ordinates on the game board (part of the snake, food, walls, empty movable space). The different options for what a cell may currently be could be done through the use of enums for the different options. So for example, an enum for "cell state" that could include within it the different states a co-ordinate on the board can be in.
+
+<b>Possible Game Additions</b>
+
+Having different levels to the game which may increase in difficulty, having lives, some sort of AI (perhaps in the end game screen there could be an automated version of the snake game playing).
