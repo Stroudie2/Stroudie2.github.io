@@ -27,4 +27,4 @@ There will be a few different arrays in this game that will represnet different 
 
 <b>Possible Game Additions</b>
 
-Having different levels to the game which may increase in difficulty, having lives, some sort of AI (perhaps in the end game screen there could be an automated version of the snake game playing).
+Adding random wall pieces around the map that add increased danger to the movement. Having different levels to the game which may increase in difficulty, having lives, some sort of AI (perhaps in the end game screen there could be an automated version of the snake game playing).
