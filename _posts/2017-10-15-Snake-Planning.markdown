@@ -23,7 +23,7 @@ Need to think about the game co-ordinates in comparison to the screen pixel co-o
 
 <b>Arrays</b>
 
-There will be a few different arrays in this game that will represnet different things. There will need to be an array for the empty game board where everything will take place and there will need to be arrays for the different things that could take up co-ordinates on the game board (part of the snake, food, walls, empty movable space). The different options for what a cell may currently be could be done through the use of enums for the different options. So for example, an enum for "cell state" that could include within it the different states a co-ordinate on the board can be in.
+There will be a few different arrays in this game that will represnet different things. There will need to be an array for the empty game board where everything will take place and there will need to be arrays for the different things that could take up co-ordinates on the game board (part of the snake, food, walls, empty movable space). The different options for what a cell may currently be could be done through the use of enums for the different options. So for example, an enum for "cell state" that could include within it the different states a co-ordinate on the board can be in. Think about how with the array containing the snake and how much will be displayed, at the beginning you are only going to have maybe 3 elements of the array currently filled in. The rest of the array will be blank until it is required to be expanded when some food has been eaten.
 
 <b>Possible Game Additions</b>
 
