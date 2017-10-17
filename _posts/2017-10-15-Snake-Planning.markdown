@@ -17,6 +17,8 @@ The snake game will be made using the ASGE, written in C++. It will require the 
 
 The food that appears on the map will have to be calculated to appear in a random spot that is not one of the positions currently taken up by the snake. In order for the snake to show in the correct direction that it is moving, I will need a condition that checks where the tail point of the snake currently is and the direction it is moving in, and it will have to add a new bit onto the correct position with the correct facement.
 
+Need to think about the game co-ordinates in comparison to the screen pixel co-ordinates.
+
 
 
 <b>Arrays</b>
