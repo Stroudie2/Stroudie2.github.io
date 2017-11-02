@@ -35,4 +35,12 @@ left bottom corner - (0, height-1) = bot left sprite
 right bottom corner - (width-1,height-1) = bot right sprite
 ```
 
-
+#### Checking for food at position
+This function is used for checking whether there is food at a given co-ordinate location. Will likely be used for checking the position in front of where the head currently is.
+```C++
+Passed in parameters of (x,y)
+if x = food_x_coord and  y = food_y_coord and current_type != NONE
+	return true
+else
+	return false
+```
