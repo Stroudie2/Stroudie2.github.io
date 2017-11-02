@@ -44,3 +44,33 @@ if x = food_x_coord and  y = food_y_coord and current_type != NONE
 else
 	return false
 ```
+
+#### Checking Snake collision
+This function will be used for general collision and may be used in multiple situations. It returns the contents of the cell in front of where the head is currently positioned and where it is facing.
+```C++
+Find where the front of the snake is using the segment pointer that is part of the class (pointing to the head of the snake)
+head_x = head->getSegCoordX
+head_y=head->getSegCoordY
+head_dir=head->getSegDirection
+
+switch (head_dir)
+case UP
+	(head_x,head_y-1)
+	coord_to_check_x = head_x
+	coord_to_check_y=head_y - 1
+case DOWN
+	(head_x,head_y+1)
+	coord_to_check_x = head_x
+	coord_to_check_y=head_y
+case LEFT
+	(head_x-1,head_y)
+	coord_to_check_x = head_x
+	coord_to_check_y=head_y
+case RIGHT
+	(head_x+1,head_y)
+	coord_to_check_x = head_x
+	coord_to_check_y=head_y
+
+Board::coordContents(coord_to_check_x, coord_to_check_y)
+returns contents of cell in front of character
+```
