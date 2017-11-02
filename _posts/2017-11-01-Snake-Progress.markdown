@@ -16,7 +16,7 @@ I have nearly finished the core loop of the snake game and am currently in the p
 
 Currently I am having a few issues with the engine in trying to get objects to actually display. However I believe that once I've sorted this issue, it should be easy to just implement in the movement for the snake. Below you can see the pseudocode for some of the functions I have already created.
 
-<b>Setting up the border</b>
+#### Setting up the border
 This is the general pseudo for how the game will set up the border around where the game is played. For each of the positions, it will assign an enum value that will later be assigned to the correct sprite.
 ```C++
 for loop from i=1 to height-2 (down the rows excluding corners)
