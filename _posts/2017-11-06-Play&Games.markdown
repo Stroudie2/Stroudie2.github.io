@@ -4,8 +4,7 @@ title: Snake Progress
 date: 2017-11-06T12:48:00.000Z
 author: Alex Stroud
 categories:
-  - Board Games
-  - Play & Games
+  
 
 ---
 
