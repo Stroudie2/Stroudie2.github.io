@@ -6,8 +6,8 @@ author: Alex Stroud
 categories:
   - Assignments
   - Level Design
-img: snake-game.jpg
-thumb: snake-game.jpg
+img: 20171110_212957.jpg
+thumb: 20171110_212957.jpg
 published: true
 ---
 
