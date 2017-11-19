@@ -1,0 +1,59 @@
+---
+layout: post
+title: Vectors
+date: 2017-11-19T13:30:00.000Z
+author: Alex Stroud
+categories:
+  - Blog
+  - Low-Level Programming
+  - Development
+img: post01.jpg
+thumb: c_thumb.jpg
+published: true
+---
+
+<b>Vectors</b> are sequence containers that represent an array which can change its size. Vectors use contiguous storage locations for their elements. Unlike arrays, they can change their size dynamically with their storage handled automatically by the container. Vectors do not reallocate the array each time an element is added to the container. Instead, they allocate extra storage to accommodate for any possible growth. Therefore they can have a capacity greater than the storage strictly needed to contain its elements. Compared to arrays, vectors consume more memory in exchange for the ability to automatically manage storage and grow dynamically in an efficient manner. Containers use different iterators for deciding how to navigate the array.
+
+
+#### Why do we use it?
+Because we want to be able to use memory dynamically but not have to worry about accidentally creating leaks in memory.
+
+
+#### What do they look like?
+```C++
+#inclue <vector>
+
+
+int size = 10;
+std::vector<int> vector_array(size);  //make room for ten ints and initialise them
+
+for (int i =0; i<size; i++)
+{
+  array[i] = i;
+}
+```
+When declaring a vector, you put the type inside <> and you can put a default size in the () following the name of the vector.
+
+#### Iterators:
+begin         Return iterator to beginning
+end           Return iterator to end
+
+#### Capacity:
+size          Return size
+max_size      Return maximum size
+resize        Change size
+capacity      Return size of allocated storage capacity
+empty         Test whether vector is empty
+reserve       Request a change in capacity
+
+#### Modifiers:
+assign        Assign vector content
+push_back     Add element at the end
+pop_back      Delete last element
+insert        Insert elements
+erase         Erase elements
+swap          Swap content
+clear         Clear content
+
+
+Dynamic memory is a complex and detailed area of C++ programming. There is still much to learn, but understanding why it exists and how it compares to static allocation can aid you in it's usage and understanding. Till next time.
