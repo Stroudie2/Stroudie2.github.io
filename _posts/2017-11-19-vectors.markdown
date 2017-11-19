@@ -47,8 +47,8 @@ empty         Test whether vector is empty
 reserve       Request a change in capacity
 
 #### Modifiers:
-assign        Assign vector content
-push_back     Add element at the end
+assign        Assign vector content,
+push_back     Add element at the end,
 pop_back      Delete last element
 insert        Insert elements
 erase         Erase elements
