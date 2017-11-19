@@ -35,23 +35,23 @@ for (int i =0; i<size; i++)
 When declaring a vector, you put the type inside <> and you can put a default size in the () following the name of the vector.
 
 #### Iterators:
-begin         Return iterator to beginning
-end           Return iterator to end
+begin    =     Return iterator to beginning,
+end       =    Return iterator to end
 
 #### Capacity:
-size          Return size
-max_size      Return maximum size
-resize        Change size
-capacity      Return size of allocated storage capacity
-empty         Test whether vector is empty
-reserve       Request a change in capacity
+size       =   Return size,
+max_size   =   Return maximum size,
+resize     =   Change size,
+capacity   =   Return size of allocated storage capacity,
+empty      =   Test whether vector is empty,
+reserve     =  Request a change in capacity
 
 #### Modifiers:
-assign        Assign vector content,
-push_back     Add element at the end,
-pop_back      Delete last element
-insert        Insert elements
-erase         Erase elements
-swap          Swap content
-clear         Clear content
+assign    =    Assign vector content,
+push_back   =  Add element at the end,
+pop_back   =   Delete last element,
+insert    =    Insert elements,
+erase    =     Erase elements,
+swap     =     Swap content,
+clear     =    Clear content
 
