@@ -27,3 +27,7 @@ Unlike with previous projects, I have now started learning about the use of Vect
 <b>Possible Game Additions</b>
 
 Different types of obstacles, powers that can affect the game
+
+
+<b>First work</b>
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/blog/20171112_153307.jpg">
