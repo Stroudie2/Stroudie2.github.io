@@ -18,12 +18,12 @@ The first image here is the powerup of double jump. You will find on the page de
 
 #### Crowbar
 The next powerup is a melee weapon that will allow the player to break weaker obstalces in the level. This will help them to reach the end.
-<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blog/master/assets/img/blog/20171110_213018.jpg">
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/blog/20171110_213018.jpg">
 
 #### Gun
 The following two images feature details on how the gun will work which will allow the player to both push objects away, and pull them towards themselves.
-<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blog/master/assets/img/blog/20171110_213037.jpg">
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/blog/20171110_213037.jpg">
 
 #### Context
 The final picture here is some details on the context of the level.
-<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blog/master/assets/img/blog/20171112_153307.jpg">
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/blog/20171112_153307.jpg">
