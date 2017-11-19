@@ -30,4 +30,6 @@ Different types of obstacles, powers that can affect the game
 
 
 <b>First work</b>
-<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/blog/20171112_153307.jpg">
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/blog/20171119_201604.jpg">
+As you can see from the above image, I have come up with a basic idea of how the environment generation will work.
+There will be a variable holding the current height of the floor piece. When spawning a new column of environment, it will use this value and randomly choose which type of piece to use from an enum class holding environment values. Once it has chosen, if it is an incline or decline piece, then it will adjust the floor_height variable accordingly. It then needs to fill the space between this value and the ceiling with blanks or obstacles. After it has filled in the column, it will then move the environment into the displayed area.
