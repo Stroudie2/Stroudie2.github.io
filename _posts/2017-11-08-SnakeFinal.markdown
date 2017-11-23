@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Snake Feedback
-date: 2017-1-18T22:32:00.000Z
+date: 2017-11-08T22:32:00.000Z
 author: Alex Stroud
 categories:
   - Snake Game
