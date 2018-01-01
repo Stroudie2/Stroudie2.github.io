@@ -63,6 +63,7 @@ email: alexander2.stroud@live.uwe.ac.uk
 # Members information. Shown on About page.
 members:
   - name: Alex Stroud
+    position: Student
     text: I am a keen and passionate games developer, whose love of programming extends to mentoring others to allow them to develop games for themselves.
     img: profile_1.jpg
     social:
