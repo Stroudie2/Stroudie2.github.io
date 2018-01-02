@@ -5,11 +5,11 @@ date:   2017-12-13 22:54:46
 author: Alex Stroud
 categories:
 - project
-- LLP
 img: xna-logo1.png
 thumb: thumb02.jpg
 carousel:
-- EndlessRunner1.jpg
+- asge_01.png
+- asge_02.png
 tagged: C++, Programming, Development
 ---
 ####Endless Runner Game
