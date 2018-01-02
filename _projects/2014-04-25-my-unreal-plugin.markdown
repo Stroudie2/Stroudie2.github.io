@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "My Unreal Plugin"
+title:  "My Unreal Project"
 date:   2014-04-25 16:54:46
 author: James Huxtable
 categories:
