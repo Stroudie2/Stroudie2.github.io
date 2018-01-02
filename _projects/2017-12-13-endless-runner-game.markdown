@@ -13,8 +13,5 @@ EndlessRunner:
 tagged: C++, Programming, Development
 type: Uni Assignment
 ---
-####YOUR PROJECT NAME
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-
-####Our Proposal
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+####Endless Runner Game
+This is the second game I have been tasked with making as part of my Low Level Programming module in the second year of University and it was made in the ASGE (Awesome Sauce Game Engine) C++ framework. It was developed in the time space of about four weeks and features endless gameplay with high score options kept on the main menu. The gameplay features the ability to jump and long jump as well as being able to run faster to get score quicker and also to stop time, which allows you to dodge any oncoming missiles headed towards the player.
