@@ -8,7 +8,7 @@ categories:
 - LLP
 img: xna-logo1.png
 thumb: thumb02.jpg
-EndlessRunner:
+carousel:
 - EndlessRunner1.jpg
 tagged: C++, Programming, Development
 ---
