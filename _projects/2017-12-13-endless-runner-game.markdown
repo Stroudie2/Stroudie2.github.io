@@ -10,7 +10,6 @@ img: xna-logo1.png
 thumb: thumb02.jpg
 EndlessRunner:
 - EndlessRunner1.jpg
-- EndlessRunner2.gif
 tagged: C++, Programming, Development
 type: Uni Assignment
 ---
