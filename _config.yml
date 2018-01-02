@@ -2,7 +2,7 @@
 
 # Site settings
 title: ALEX STROUD
-description: "Games development from an elder's persepective."
+description: "Junior Games Development Student."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/" #important: start with /
 url: "https://Stroudie2.github.io"
@@ -73,4 +73,4 @@ members:
         url: http://twitter.com/HuxyUK
  
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Those who can do and those who can't teach games design."
+about: "Junior games development student situated in Bristol."
