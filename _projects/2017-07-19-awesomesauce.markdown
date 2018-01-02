@@ -11,6 +11,7 @@ carousel:
 - asge_01.png
 - asge_02.png
 tagged: C++, Engines, Development
+client: me
 website: https://github.com/HuxyUK/AwesomeSauceGE
 abstract: A simple 2D game engine
 ---
