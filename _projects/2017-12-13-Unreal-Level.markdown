@@ -5,8 +5,8 @@ date:   2017-12-10 22:53:00
 author: Alex Stroud
 categories:
 - project
-img: EndlessRunner1.png
-thumb: EndlessRunner1.png
+img: unreal_logo.jpg
+thumb: unreal_logo.jpg
 carousel:
 - EndlessRunner1.jpg
 - EndlessRunner3.png
