@@ -5,11 +5,11 @@ date:   2017-12-13 22:54:46
 author: Alex Stroud
 categories:
 - project
-img: portfolio_10.jpg
+img: EndlessRunner1.jpg
 thumb: thumb02.jpg
 carousel:
-- EndlessRunner1.jpg
-- EndlessRunner2.gif
+- EndlessRunner3.png
+- EndlessRunner2.png
 tagged: C++, Programming, Development
 
 ---
