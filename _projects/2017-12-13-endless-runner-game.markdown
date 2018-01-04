@@ -8,6 +8,7 @@ categories:
 img: EndlessRunner1.png
 thumb: EndlessRunner1.png
 carousel:
+- EndlessRunner1.jpg
 - EndlessRunner3.png
 - EndlessRunner2.png
 tagged: C++, Programming, Development
