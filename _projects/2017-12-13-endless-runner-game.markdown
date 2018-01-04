@@ -8,8 +8,8 @@ categories:
 img: portfolio_10.jpg
 thumb: thumb02.jpg
 carousel:
-- asge_01.png
-- asge_02.png
+- EndlessRunner1.jpg
+- EndlessRunner2.gif
 tagged: C++, Programming, Development
 
 ---
