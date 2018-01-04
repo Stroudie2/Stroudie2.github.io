@@ -5,7 +5,7 @@ date:   2017-12-13 22:54:46
 author: Alex Stroud
 categories:
 - project
-img: xna-logo1.png
+img: portfolio_10.jpg
 thumb: thumb02.jpg
 carousel:
 - asge_01.png
