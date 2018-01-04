@@ -5,8 +5,8 @@ date:   2017-12-07 14:00:00
 author: Alex Stroud
 categories:
 - project, Assignment
-img: unreal_logo.jpg
-thumb: unreal_logo.jpg
+img: UnrealLevelThumbnail.png
+thumb: UnrealLevelThumbnail.png
 carousel:
 - EndlessRunner1.jpg
 - EndlessRunner3.png
