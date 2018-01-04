@@ -1,31 +1,36 @@
 ---
 layout: project
-title:  "Unreal Level"
-date:   2017-12-17 22:53:00
+title:  "Unreal Platformer Level"
+date:   2017-12-07 14:00:00
 author: Alex Stroud
 categories:
 - project
+- Assignment
 img: unreal_logo.jpg
 thumb: unreal_logo.jpg
 carousel:
 - EndlessRunner1.jpg
 - EndlessRunner3.png
 - EndlessRunner2.png
-tagged: C++, Programming, Development
+tagged: Unreal Engine, Game Engine, Development
 
 ---
 
-#### Endless Runner Game
+#### Unreal Third Person Level
 
-This is the second game I have been tasked with making as part of my Low Level Programming module in the second year of University and it was made in the ASGE (Awesome Sauce Game Engine) C++ framework. It was developed in the time space of about four weeks and features endless gameplay with high score options kept on the main menu. As of now, this is the most recent game I have made in C++ as part of my module on the language.
+This assignment was the only assessment for my "Game Level Design" module. The task was to create a Sci-Fi themed third person platformer level with four minutes of gameplay. I had to base the level around a theme of a ship in space that is falling apart and as the player, you have four minutes to escape.
 
 
 #### Gameplay Features
 
-This game features constant automatic movement where the player's score will increase at a rate based on their chosen difficulty. After a short period of there being no obstacles, they will start to randomly generate for the player, forcing them to dodge the different types. They will have to use a mix of jumps, long jumps, crouches and abilities in order to dodge the obstacles found on ground level as well as the shooting projectiles heading straight towards the player.
+The level that I built featured several different rooms in which the player would be required to find out how to get through to the next one. This had to be done through the use of different abilities found throughout the map. The player could use these abilities in order to make their way through the level. The logic for the level was controlled through the different Unreal features with the use of their BluePrints visual scripting language. Before making any of the level, I made lots of drawings on paper in order to plan out how the level would play and what would be found in the different rooms of the level. You can find more details on this, over on the blog section of the website.
 
 
 #### Abilities
 
-The player has access to two different abilities that can be especially useful for dodging the flying projectiles. If the player holds down the "D" or "RIGHT" key while playing, they will start speeding up faster than the environment, causing them to run forward. While running, the constant score will increase at a higher rate than standard movement. It also allows the player to run quickly down a hill in order to dodge an oncoming missile.
-The other ability you have as the player is the option to stop time as the environment continues to move. If you know you are not going to be able to easily dodge an oncoming missile that is close to hitting you, you can hold down either "A" or "LEFT" in order to freeze the character in place as the missile shoots past. This is very useful, but be careful to not let the character fall so far back that you hit the back wall. This will cause the player to die.
+Throughout the game, the player needed to obtain upgrades to their character that would help them to surpass certain obstacles. These included a double jump ability for being able to better reach far away gaps, a melee weapon that could be used to smash small boxes, and a gravity gun like weapon that allows the player to pick up and drop objects in the distance.
+The abilities can be found around the different rooms of the map and are obtained through the use of pickups. Once an item is picked up, it is added to the inventory for the player.
+
+
+#### Summary
+This level was one of the biggest projects I have worked on in the first term of the second year, with lots of planning required to make it enjoyable and playable to the extent of the assignment brief. It was also one of my personal favourite modules to work on as I find the planning and making of different level assets to be a really fun and interesting process.
