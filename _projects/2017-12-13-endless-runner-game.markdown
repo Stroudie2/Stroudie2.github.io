@@ -6,7 +6,7 @@ author: Alex Stroud
 categories:
 - project
 img: EndlessRunner1.png
-thumb: EndlessRunner1.jpg
+thumb: EndlessRunner1.png
 carousel:
 - EndlessRunner3.png
 - EndlessRunner2.png
