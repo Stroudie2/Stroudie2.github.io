@@ -4,7 +4,7 @@ title:  "Unreal Platformer Level"
 date:   2017-12-07 14:00:00
 author: Alex Stroud
 categories:
-- project,
+- project, 
 - Assignment
 img: unreal_logo.jpg
 thumb: unreal_logo.jpg
