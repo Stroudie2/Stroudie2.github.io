@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "ENDLESS-RUNNER-GAME"
+title:  "ENDLESS RUNNER GAME"
 date:   2017-12-13 22:54:46
 author: Alex Stroud
 categories:
