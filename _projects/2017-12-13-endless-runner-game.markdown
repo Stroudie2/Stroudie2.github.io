@@ -5,7 +5,7 @@ date:   2017-12-13 22:54:46
 author: Alex Stroud
 categories:
 - project
-img: EndlessRunner1.jpg
+img: EndlessRunner1.png
 thumb: EndlessRunner1.jpg
 carousel:
 - EndlessRunner3.png
