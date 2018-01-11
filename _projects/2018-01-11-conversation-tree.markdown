@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Conversation Tree Gameplay Aspect"
+title:  "Conversation Tree"
 date:   2018-01-11 14:00:00
 author: Alex Stroud
 categories:
