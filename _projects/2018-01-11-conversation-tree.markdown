@@ -16,6 +16,8 @@ carousel:
 - ConversationTree6.png
 - ConversationTree7.png
 - ConversationTree8.png
+- ConversationTree9.png
+- ConversationTree10.png
 tagged: Unreal Engine, Game Engine, Development, Unity Engine, Architecture
 
 ---
@@ -37,4 +39,4 @@ Implementing into Unreal itself was quite simple. There are lots of useful featu
 
 
 #### Unity Engine
-This level was one of the biggest projects I have worked on in the first term of the second year, with lots of planning required to make it enjoyable and playable to the extent of the assignment brief. It was also one of my personal favourite modules to work on as I find the planning and making of different level assets to be a really fun and interesting process.
+The other engine that I used in this assignment was the Unity Engine. Unlike Unreal with it's visual scripting 'Blueprints', Unity focuses on using code for all of it's logic in the language of C#. For this engine, I decided that I wanted to do it differently to how I had in Unreal where it was purely UI based. As part of this assignment is showing how the given aspect can be implemented into a wider game, I thought I would make a more interactive level for this example. For this example, I was going to have it so that as the player, you were interacting with an NPC, but based on the outcome of the conversation, this NPC has an 'attack' mode in which it gets angry and starts to chase you around the map.
