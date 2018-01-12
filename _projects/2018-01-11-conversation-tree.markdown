@@ -19,7 +19,6 @@ carousel:
 - ConversationTree9.png
 - ConversationTree10.png
 - ConversationTree11.png
-- ConversationTree12.png
 tagged: Unreal Engine, Game Engine, Development, Unity Engine, Architecture
 
 ---
