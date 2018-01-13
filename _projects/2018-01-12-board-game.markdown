@@ -5,8 +5,8 @@ date:   2017-12-07 14:00:00
 author: Alex Stroud
 categories:
 - project
-img: EndlessRunner1.png
-thumb: EndlessRunner1.png
+img: P&GThumbnail.png
+thumb: P&GThumbnail.png
 carousel:
 - EndlessRunner1.jpg
 - EndlessRunner3.png
