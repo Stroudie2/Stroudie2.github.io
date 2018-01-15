@@ -1,22 +1,24 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
-date:   2014-04-25 16:54:46
-author: Marcel Newman
+title:  "MINESWEEPER C++ GAME"
+date:   2017-02-16 14:00:00
+author: Alex Stroud
 categories:
 - project
-img: portfolio_07.jpg
-thumb: thumb02.jpg
+img: MinesweeperThumbnail.png
+thumb: MinesweeperThumbnail.png
 carousel:
-- single01.jpg
-- single02.jpg
-- single03.jpg
-tagged: Flat, UI, Development
-client: Wonder Corp.
-website: http://blacktie.co
----
-####YOUR PROJECT NAME
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+Minesweeper1.png
+Minesweeper2.png
+Minesweeper3.png
+tagged: C++, Programming, Development
 
-####Our Proposal
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+---
+
+#### Minesweeper assignment
+
+
+
+
+#### The research
+
