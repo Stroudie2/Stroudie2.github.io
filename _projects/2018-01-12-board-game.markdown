@@ -8,9 +8,8 @@ categories:
 img: P&GThumbnail.png
 thumb: P&GThumbnail.png
 carousel:
-- EndlessRunner1.jpg
-- EndlessRunner3.png
-- EndlessRunner2.png
+- P&G2.png
+- P&G1.png
 tagged: C++, Programming, Development
 
 ---
