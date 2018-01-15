@@ -11,7 +11,7 @@ carousel:
 Minesweeper1.png
 Minesweeper2.png
 Minesweeper3.png
-tagged: C++, Programming, Development
+tagged: C++, Programming, Development, Games
 
 ---
 
@@ -21,4 +21,3 @@ tagged: C++, Programming, Development
 
 
 #### The research
-
