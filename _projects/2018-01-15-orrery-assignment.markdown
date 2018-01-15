@@ -5,8 +5,8 @@ date:   2016-11-25 14:00:00
 author: Alex Stroud
 categories:
 - project
-img: OrreryThumbnail.png
-thumb: OrreryThumbnail.png
+img: portfolio_08.jpg
+thumb: portfolio_08.jpg
 carousel:
 Orrery1.png
 Orrery2.png
