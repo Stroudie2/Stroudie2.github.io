@@ -16,8 +16,9 @@ tagged: C++, Programming, Development, Games
 ---
 
 #### Minesweeper assignment
-
+This is the second programming assignment I did in the first year of my course. It involved using C++ to produce a console version of the popular game MineSweeper.
 
 
 
 #### The research
+Test
