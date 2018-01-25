@@ -5,8 +5,8 @@ date:   2014-04-25 16:54:46
 author: James Huxtable
 categories:
 - project
-img: OrreryThumbnail.png
-thumb: OrreryThumbnail.png
+img: xna-logo1.png
+thumb: xna-logo1.png
 carousel:
 - asge_01.png
 - asge_02.png
