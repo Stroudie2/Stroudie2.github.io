@@ -8,7 +8,7 @@ categories:
 img: TreasurehuntThumbnail.png
 thumb: TreasurehuntThumbnail.png
 carousel:
-Treasurehunt1.png
+- Treasurehunt1.png
 tagged: C++, Programming, Development
 
 ---
