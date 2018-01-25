@@ -8,9 +8,9 @@ categories:
 img: OrreryThumbnail.png
 thumb: OrreryThumbnail.png
 carousel:
-Orrery1.png
-Orrery2.png
-Orrery3.png
+- Orrery1.png
+- Orrery2.png
+- Orrery3.png
 tagged: C++, Programming, Development
 
 ---
