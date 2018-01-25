@@ -5,8 +5,8 @@ date:   2017-02-16 14:00:00
 author: Alex Stroud
 categories:
 - project
-img: MinesweeperThumbnail.png
-thumb: MinesweeperThumbnail.png
+img: ConversationTreeThumbnail.png
+thumb: ConversationTreeThumbnail.png
 carousel:
 Minesweeper1.png
 Minesweeper2.png
