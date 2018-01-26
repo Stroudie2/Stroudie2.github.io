@@ -29,3 +29,5 @@ This game features constant automatic movement where the player's score will inc
 
 The player has access to two different abilities that can be especially useful for dodging the flying projectiles. If the player holds down the "D" or "RIGHT" key while playing, they will start speeding up faster than the environment, causing them to run forward. While running, the constant score will increase at a higher rate than standard movement. It also allows the player to run quickly down a hill in order to dodge an oncoming missile.
 The other ability you have as the player is the option to stop time as the environment continues to move. If you know you are not going to be able to easily dodge an oncoming missile that is close to hitting you, you can hold down either "A" or "LEFT" in order to freeze the character in place as the missile shoots past. This is very useful, but be careful to not let the character fall so far back that you hit the back wall. This will cause the player to die.
+
+[gameplay](https://youtu.be/vPfuuuFcyLE)
