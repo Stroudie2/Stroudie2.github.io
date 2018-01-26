@@ -10,7 +10,7 @@ thumb: P&GThumbnail.png
 carousel:
 - P&G2.png
 - P&G1.png
-tagged: C++, Programming, Development
+tagged: Game Design, Group work, Development
 
 ---
 
