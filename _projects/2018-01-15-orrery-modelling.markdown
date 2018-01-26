@@ -18,15 +18,15 @@ carousel:
 - Orrery8.png
 - Orrery9.png
 - Orrery10.png
-tagged: C++, Programming, Development
+tagged: Maya, Modelling, Animation
 
 ---
 
 #### Orrery 3D modelling assignment
-test
+This was my first assignment in my "Principles of 3D Environments" module of the first year at university. It involved using the skills learned throughout the taught content to design and model a 3D Orrery with specific properties and to also animate it in a way that creates a realistic looking effect.
 
 
 
-#### The research
+#### The animation
 
-test
+The animation I created for this involved the gears being carefully lined up together. I then had to create the animation of them turning each other, and with that, turning the planets in their orbit around the central sun. This took lots of time to get just right but in the end, the modelling and the texturing ended up with a nice finish to it that I am happy with as a result.
