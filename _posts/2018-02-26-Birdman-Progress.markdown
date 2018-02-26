@@ -7,8 +7,8 @@ categories:
   - Birdman Game
   - Low-Level Programming
   - Group work
-img: 
-thumb: 
+img: Birdman1.png
+thumb: Birdman1.png
 published: true
 ---
 
