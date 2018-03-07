@@ -22,3 +22,6 @@ Meeting the full deliverables (creating a menu),
 Dynamic memory management,
 and making use of delta time instead of sleeping threads.
 The first point is something I have already mentioned and to improve on that, with the next game I am going to try get the basic parts of a menu system implemented at the beginning, before making the game. Memory management was another thing I struggled with in Snake because I didn't make good use of deallocating the memory I had used in loops. This is something I will look more carefully at for the endless runner. The best way to do this is to have deallocation of memory put in everytime I use some new memory. The final point was about the fact that I used the (sleepfor) command for slowing down the game rather than the proper way of doing it, which is built into the framework through the use of delta time.
+
+#### Snake Gameplay:
+[![Snake Gameplay](https://img.youtube.com/vi/vPfuuuFcyLE/100.jpg)](https://youtu.be/vPfuuuFcyLE?t=100 "Snake Gameplay")
