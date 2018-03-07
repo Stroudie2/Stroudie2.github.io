@@ -34,5 +34,5 @@ The other ability you have as the player is the option to stop time as the envir
 #### Endless Runner Gameplay: Youtube Video
 [![Endless Runner Gameplay](https://img.youtube.com/vi/vPfuuuFcyLE/0.jpg)](https://youtu.be/vPfuuuFcyLE "Endless Runner & Snake Gameplay")
 
-\
+
 
