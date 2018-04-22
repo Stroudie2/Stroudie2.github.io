@@ -7,10 +7,7 @@ categories:
   - Networking Game
   - Low-Level Programming
   - Group work
-img: 
-- Crusade1.png
-- Crusade2.png
-- Crusade3.png
+img: Crusade2.png
 thumb: Crusade2.png
 published: true
 ---
