@@ -30,4 +30,4 @@ This is the final programming game to be made as part of the Low Level Programmi
 
 
 #### Crusade Gameplay: Youtube Video
-[![Birdman Gameplay](https://img.youtube.com/vi/2fDKUsDl4Fo/0.jpg)](https://youtu.be/2fDKUsDl4Fo "Birdman Gameplay")
+[![Crusade Gameplay](https://img.youtube.com/vi/EcyB8aBJD9g/0.jpg)](https://youtu.be/EcyB8aBJD9g "Crusade Gameplay")
