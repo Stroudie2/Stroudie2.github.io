@@ -5,8 +5,8 @@ date:   2018-10-26 13:40:00
 author: Alex Stroud
 categories:
 - project
-img: ShadowOfAtariThumbnail.png
-thumb: ShadowOfAtariThumbnail.png
+img: SuperTrashThumbnail.png
+thumb: SuperTrashThumbnail.png
 carousel:
 - ShadowOfAtari1.png
 - ShadowOfAtari2.png
