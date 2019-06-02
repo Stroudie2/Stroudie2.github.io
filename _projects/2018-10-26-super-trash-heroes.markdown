@@ -8,9 +8,11 @@ categories:
 img: SuperTrashThumbnail.png
 thumb: SuperTrashThumbnail.png
 carousel:
-- ShadowOfAtari1.png
-- ShadowOfAtari2.png
-- ShadowOfAtari3.png
+- SuperTrash1.png
+- SuperTrash2.png
+- SuperTrash3.png
+- SuperTrash4.png
+- SuperTrash5.png
 tagged: C++, Programming, Development
 
 ---
