@@ -2,7 +2,7 @@
 
 # Site settings
 title: ALEX STROUD
-description: "Junior Games Development Student."
+description: "Junior Games Development Graduate."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/" #important: start with /
 url: "https://Stroudie2.github.io"
@@ -68,9 +68,9 @@ members:
     img: profile_1.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:james2.huxtable@uwe.ac.uk
+        url: mailto:alexjamesstroud@gmail.com
       - title: twitter
-        url: http://twitter.com/HuxyUK
+        url: http://twitter.com/
  
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Junior games development student situated in Bristol."
+about: "Junior games development graduate."
