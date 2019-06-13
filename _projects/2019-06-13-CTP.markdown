@@ -21,9 +21,11 @@ tagged: C++, Programming, Development
 This is my end of degree independent creative project whereby I explored the effectiveness of different gameplay techniques on a player's emotional responses.
 
 
-#### Gameplay Features
+#### Project Summary
 
-As part of the work done on the planes, the other core feature added was the ability to drop bombs from the sky. This would give players in planes the oppurtunity to fly over grounded players and try to eliminate them from the sky. Lots of consideration was made for balancing the gameplay of the planes as well as allowing multiple planes to dog-fight each other in the air. The team also took part in developing our own map to use with the planes, made using the new level editor. You can find attached below a link to a demonstration trailer of our groups work on the game.
+The premise behind this research project was to explore how some of the most common techniques used in gameplay design can effect how a player emoitonally responds to the game. This is something that is of particular interest in the horror game genre. If game dev teams can better understand how to create an emotional impact on their target audience, then they can produce more intriguing content for the consumer base.
+
+With this in mind, a test scene was developed with the intention of gathering test data from user participants. 
 
 
 #### Final Video Demonstration: Youtube Video
