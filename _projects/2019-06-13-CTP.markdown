@@ -1,0 +1,32 @@
+---
+layout: project
+title:  "How Peripheral Events Can Affect A Player's Emotional Responses - CTP Project"
+date:   2019-04-25 13:40:00
+author: Alex Stroud
+categories:
+- project
+img: KachikuThumbnail.jpg
+thumb: KachikuThumbnail.jpg
+carousel:
+- Kachiku1.jpg
+- Kachiku2.jpg
+- Kachiku3.jpg
+tagged: C++, Programming, Development
+
+---
+
+#### Emotional Response
+
+This project was part of a group cohort project, building on a game originally developed by the PlayWest team. As part of the second semester for my final year module "Commercial Games Development", the cohort was tasked with working together to add components to the game. In the individual groups who worked on the game jams, the cohort split into designing several different elements to add to the project. My team worked on adding a new plane vehicle type, which involved doing all the work for flying behaviour.
+
+
+#### Gameplay Features
+
+As part of the work done on the planes, the other core feature added was the ability to drop bombs from the sky. This would give players in planes the oppurtunity to fly over grounded players and try to eliminate them from the sky. Lots of consideration was made for balancing the gameplay of the planes as well as allowing multiple planes to dog-fight each other in the air. The team also took part in developing our own map to use with the planes, made using the new level editor. You can find attached below a link to a demonstration trailer of our groups work on the game.
+
+
+#### Kachiku64 Game Trailer: Youtube Video
+[![Kachiku64 Trailer](https://img.youtube.com/vi/4QVY9biPG3A/0.jpg)](https://youtu.be/4QVY9biPG3A "Kachiku64 Trailer")
+
+
+
