@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "How Peripheral Events Can Affect A Player's Emotional Responses - CTP Project"
-date:   2019-04-29 13:40:00
+date:   2019-04-11 13:40:00
 author: Alex Stroud
 categories:
 - project
