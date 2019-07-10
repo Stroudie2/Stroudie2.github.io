@@ -5,12 +5,12 @@ date:   2019-04-11 13:40:00
 author: Alex Stroud
 categories:
 - project
-img: KachikuThumbnail.jpg
-thumb: KachikuThumbnail.jpg
+img: CTPThumbnail.png
+thumb: CTPThumbnail.png
 carousel:
-- Kachiku1.jpg
-- Kachiku2.jpg
-- Kachiku3.jpg
+- CTP1.png
+- CTP2.png
+- CTP3.png
 website: https://drive.google.com/open?id=1JUL011McGrFVOhCErSTGhl7kvoozzE2l
 tagged: C++, Programming, Development
 
