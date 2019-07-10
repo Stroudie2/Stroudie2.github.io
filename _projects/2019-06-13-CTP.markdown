@@ -26,9 +26,9 @@ This is my end of degree independent creative project whereby I explored the eff
 
 #### Project Summary
 
-The premise behind this research project was to explore how some of the most common techniques used in gameplay design can effect how a player emoitonally responds to the game. This is something that is of particular interest in the horror game genre. If game dev teams can better understand how to create an emotional impact on their target audience, then they can produce more intriguing content for the consumer base.
+The premise behind this research project was to explore how some of the most common techniques used in gameplay design can effect how a player emoitonally responds to the game. This is something that is of particular interest in the horror game genre. If game dev teams can better understand how to create an emotional impact on their target audience, then they can produce more intriguing content for their consumer base.
 
-With this in mind, a test scene was developed with the intention of gathering test data from user participants. This scene featured certain game features relating to sounds and visual components. During the testing period, participant's hear rate data was captured and converted to a Heart Rate Variability reading. This information was then used to highlight points of interest during the recording to highlight what in particular caused a change in their response.
+With this in mind, a test scene was developed with the intention of gathering test data from user participants. This scene featured certain game features relating to sounds and visual components. During the testing period, participant's heart rate data was captured and converted to a Heart Rate Variability reading. This information was then used to highlight points of interest during the recording to highlight what in particular caused a change in their response.
 
 This project was useful for exploring some useful game techniques as highlighted in the full report. To see a brief video summary of the project, follow the YouTube link found below.
 
