@@ -19,19 +19,16 @@ tagged: C++, Programming, Development
 
 #### Procedural Building Generator
 
-This project was the first of three tasks assigned under the "Advanced Technologies" module during year three of my degree. The task was to, using either DirectX11/12 or OpenGL, create a program that would allow a user to customize their own building model and allow for exporting.
+This project was the first of three tasks assigned under the "Advanced Technologies" module during year three of my degree. The task was to, using either DirectX11/12 or OpenGL, create a program that would allow a user to customise their own building model and allow for exporting.
 
 
 #### Project Summary
 
-The end result of this 
+The end result of this was a DirectX11 program made using C++ and some additional libraries that allows a user to change the height, width and depth of their building using an easy User Interface. As well as custom options for the building size, there are also additional options for adjusting the roof of the building and the texture applied to the walls. After customising the building, the user can there press a button to export the current settings to an obj file, which can then be used in a modelling program or within an engine like Unity, as demonstrated through the pictures above.
 
 
-#### Final Video Demonstration: Youtube Video
+#### Building Generator Demonstration Video: Youtube Video
 [![CTP Trailer](https://img.youtube.com/vi/cFXJSyragb4/0.jpg)](https://youtu.be/cFXJSyragb4 "CTP Trailer")
-
-#### CTP Report Download
-[![CTP Report Download](https://i.gyazo.com/3d93ba6d8c26d2a68721773d14f5ec5b.png)](https://drive.google.com/open?id=1JUL011McGrFVOhCErSTGhl7kvoozzE2l "Kachiku64 Trailer")
 
 
 
