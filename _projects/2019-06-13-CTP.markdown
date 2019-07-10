@@ -11,6 +11,9 @@ carousel:
 - CTP1.png
 - CTP2.png
 - CTP3.png
+- CTP4.png
+- CTP5.png
+- CTP6.png
 website: https://drive.google.com/open?id=1JUL011McGrFVOhCErSTGhl7kvoozzE2l
 tagged: C++, Programming, Development
 
