@@ -32,7 +32,7 @@ To read about this project further, please follow the link below to find the pro
 
 
 #### Report Download Link
-[![Open World Report Download](https://i.gyazo.com/64720bd2d83209f573aa646c8ed7a339.png)](https://drive.google.com/file/d/1A5f1Wtz4nCcDa7yuIf4Hph_E3RayPSjL/view?usp=sharing "Report PDF")
+[![Open World Report Download](https://i.gyazo.com/64720bd2d83209f573aa646c8ed7a339.png)](https://drive.google.com/open?id=1bnLnOH-5u8POP6n7cIq2kkiynpZTboDd "Report PDF")
 
 #### Building Generator Demonstration Video: Youtube Video
 [![CTP Trailer](https://img.youtube.com/vi/cFXJSyragb4/0.jpg)](https://youtu.be/cFXJSyragb4 "CTP Trailer")
