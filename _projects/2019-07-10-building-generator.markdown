@@ -26,6 +26,10 @@ This project was the first of three tasks assigned under the "Advanced Technolog
 
 The end result of this was a DirectX11 program made using C++ and some additional libraries that allows a user to change the height, width and depth of their building using an easy User Interface. As well as custom options for the building size, there are also additional options for adjusting the roof of the building and the texture applied to the walls. After customising the building, the user can there press a button to export the current settings to an obj file, which can then be used in a modelling program or within an engine like Unity, as demonstrated through the pictures above.
 
+If you would like to know more, please follow the link below to read the full project report.
+
+#### Report Download Link
+[![Building Generator Report Download](https://i.gyazo.com/64720bd2d83209f573aa646c8ed7a339.png)](https://drive.google.com/open?id=1LvaroDYy-7zH3ZcqxfAF6Z6hmCdUQyj9 "Report PDF")
 
 #### Building Generator Demonstration Video: Youtube Video
 [![CTP Trailer](https://img.youtube.com/vi/cFXJSyragb4/0.jpg)](https://youtu.be/cFXJSyragb4 "CTP Trailer")
