@@ -12,7 +12,6 @@ carousel:
 - OpenWorld2.png
 - OpenWorld3.png
 - OpenWorld4.png
-- OpenWorld5.png
 tagged: C++, Programming, Development
 
 ---
