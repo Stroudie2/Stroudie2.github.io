@@ -29,7 +29,7 @@ The end result of this was a DirectX11 program made using C++ and some additiona
 If you would like to know more, please follow the link below to read the full project report.
 
 #### Report Download Link
-[![Building Generator Report Download](https://i.gyazo.com/64720bd2d83209f573aa646c8ed7a339.png)](https://drive.google.com/open?id=1LvaroDYy-7zH3ZcqxfAF6Z6hmCdUQyj9 "Report PDF")
+[![Building Generator Report Download](https://i.gyazo.com/6ba372444b54578a43e8a0e946430a57.png)](https://drive.google.com/open?id=1LvaroDYy-7zH3ZcqxfAF6Z6hmCdUQyj9 "Report PDF")
 
 #### Building Generator Demonstration Video: Youtube Video
 [![CTP Trailer](https://img.youtube.com/vi/cFXJSyragb4/0.jpg)](https://youtu.be/cFXJSyragb4 "CTP Trailer")
