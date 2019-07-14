@@ -37,7 +37,7 @@ This project was useful for exploring some useful game techniques as highlighted
 [![CTP Trailer](https://img.youtube.com/vi/cFXJSyragb4/0.jpg)](https://youtu.be/cFXJSyragb4 "CTP Trailer")
 
 #### CTP Report Download
-[![CTP Report Download](https://i.gyazo.com/3d93ba6d8c26d2a68721773d14f5ec5b.png)](https://drive.google.com/open?id=1JUL011McGrFVOhCErSTGhl7kvoozzE2l "Kachiku64 Trailer")
+[![CTP Report Download](https://i.gyazo.com/3d93ba6d8c26d2a68721773d14f5ec5b.png)](https://drive.google.com/open?id=1JUL011McGrFVOhCErSTGhl7kvoozzE2l "Report PDF")
 
 
 
