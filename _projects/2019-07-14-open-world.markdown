@@ -27,7 +27,7 @@ The end result of this project was a Unity project that allowed a user to make a
 
 After testing, this system is shown to significantly improve the performance conditions of the world when compared to the same project without the dynamic loading being used.
 
-To read about this project further, please follow the link below to find the project report.
+To read about this project further, please follow the link below to find the project report and also take a look at the short showreel video for all of thhe projects within this module.
 
 
 #### Report Download Link
