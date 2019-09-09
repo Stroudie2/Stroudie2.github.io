@@ -31,11 +31,11 @@ If you would like to know more, please follow the link below to read the full pr
 #### Report Download Link
 [![Building Generator Report Download](https://i.gyazo.com/6ba372444b54578a43e8a0e946430a57.png)](https://drive.google.com/open?id=1LvaroDYy-7zH3ZcqxfAF6Z6hmCdUQyj9 "Report PDF")
 
+#### Building Generator Demonstration Video: Youtube Video
+[![CTP Trailer](https://img.youtube.com/vi/czlD6BzbxYU/0.jpg)](https://youtu.be/czlD6BzbxYU "Procedural Building Demo Video")
+
 #### Advanced Technologies - Showreel Video: Youtube
 [![Advanced Tech Shhowreel Video](https://img.youtube.com/vi/dm-c4ovVGrQ/0.jpg)](https://youtu.be/dm-c4ovVGrQ "AT Showreel")
-
-#### Building Generator Demonstration Video: Youtube Video
-[![CTP Trailer](https://img.youtube.com/vi/cFXJSyragb4/0.jpg)](https://youtu.be/cFXJSyragb4 "CTP Trailer")
 
 
 
