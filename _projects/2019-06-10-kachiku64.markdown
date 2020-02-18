@@ -29,7 +29,7 @@ As part of the work done on the planes, the other core feature added was the abi
 #### Kachiku64 Game Trailer: Youtube Video
 [![Kachiku64 Trailer](https://img.youtube.com/vi/4QVY9biPG3A/0.jpg)](https://youtu.be/4QVY9biPG3A "Kachiku64 Trailer")
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/4QVY9biPG3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/4QVY9biPG3A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 
 
 
