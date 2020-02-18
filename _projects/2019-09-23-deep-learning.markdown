@@ -36,7 +36,7 @@ To read about this project further, please follow the link below to find the pro
 [![Open World Report Download](https://i.gyazo.com/e3c24f39b688d6e4bff152deaeeaedd1.png)](https://drive.google.com/open?id=1A5f1Wtz4nCcDa7yuIf4Hph_E3RayPSjL "Deep Learning Report PDF")
 
 #### Deep Learning Level Generation Demonstration Video: Youtube
-[![Open World Demo](https://img.youtube.com/vi/YU6iP-LFMeE/0.jpg)](https://youtu.be/YU6iP-LFMeE "Open World Demo")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YU6iP-LFMeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Advanced Technologies - Showreel Video: Youtube
-[![Advanced Tech Shhowreel Video](https://img.youtube.com/vi/dm-c4ovVGrQ/0.jpg)](https://youtu.be/dm-c4ovVGrQ "AT Showreel")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dm-c4ovVGrQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
