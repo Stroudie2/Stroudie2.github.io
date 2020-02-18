@@ -12,7 +12,6 @@ carousel:
 - Kachiku2.jpg
 - Kachiku3.jpg
 tagged: C++, Programming, Development
-
 ---
 
 #### Kachiku64
