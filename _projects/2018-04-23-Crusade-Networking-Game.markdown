@@ -30,4 +30,4 @@ For this project, there was a group of four of us developing it. For the most pa
 
 
 #### Crusade Gameplay: Youtube Video
-[![Crusade Gameplay](https://img.youtube.com/vi/EcyB8aBJD9g/0.jpg)](https://youtu.be/EcyB8aBJD9g "Crusade Gameplay")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EcyB8aBJD9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
