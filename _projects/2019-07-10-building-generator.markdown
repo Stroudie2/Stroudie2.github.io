@@ -19,7 +19,7 @@ tagged: C++, Programming, Development
 
 #### Procedural Building Generator
 
-This project was the first of three tasks assigned under the "Advanced Technologies" module during year three of my degree. The task was to, using either DirectX11/12 or OpenGL, create a program that would allow a user to customise their own building model and allow for exporting. Test
+This project was the first of three tasks assigned under the "Advanced Technologies" module during year three of my degree. The task was to, using either DirectX11/12 or OpenGL, create a program that would allow a user to customise their own building model and allow for exporting.
 
 
 #### Project Summary
@@ -32,10 +32,10 @@ If you would like to know more, please follow the link below to read the full pr
 [![Building Generator Report Download](https://i.gyazo.com/6ba372444b54578a43e8a0e946430a57.png)](https://drive.google.com/open?id=1LvaroDYy-7zH3ZcqxfAF6Z6hmCdUQyj9 "Report PDF")
 
 #### Building Generator Demonstration Video: Youtube Video
-[![CTP Trailer](https://img.youtube.com/vi/czlD6BzbxYU/0.jpg)](https://youtu.be/czlD6BzbxYU "Procedural Building Demo Video")
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/czlD6BzbxYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Advanced Technologies - Showreel Video: Youtube
-[![Advanced Tech Shhowreel Video](https://img.youtube.com/vi/dm-c4ovVGrQ/0.jpg)](https://youtu.be/dm-c4ovVGrQ "AT Showreel")
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/dm-c4ovVGrQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
