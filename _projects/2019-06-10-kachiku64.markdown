@@ -11,7 +11,6 @@ carousel:
 - Kachiku1.jpg
 - Kachiku2.jpg
 - Kachiku3.jpg
-website: https://youtube.com
 tagged: C++, Programming, Development
 
 ---
