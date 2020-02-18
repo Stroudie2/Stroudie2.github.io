@@ -25,7 +25,6 @@ The gameplay features a first person experience whereby the player will find the
 
 
 #### Terraform Gameplay: Youtube Video
-[![Shadow of Atari Gameplay](https://img.youtube.com/vi/XGFyR9oi8n4/0.jpg)](https://youtu.be/XGFyR9oi8n4 "Shadow of Atari Gameplay")
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3yHmqLMcRAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
