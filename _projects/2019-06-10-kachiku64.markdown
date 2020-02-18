@@ -17,7 +17,6 @@ tagged: C++, Programming, Development
 #### Kachiku64
 
 This project was part of a group cohort project, building on a game originally developed by the PlayWest team. As part of the second semester for my final year module "Commercial Games Development", the cohort was tasked with working together to add components to the game. In the individual groups who worked on the game jams, the cohort split into designing several different elements to add to the project. My team worked on adding a new plane vehicle type, which involved doing all the work for flying behaviour.
-test
 
 
 #### Gameplay Features
