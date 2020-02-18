@@ -19,7 +19,7 @@ tagged: C++, Programming, Development
 
 #### Procedural Building Generator
 
-This project was the first of three tasks assigned under the "Advanced Technologies" module during year three of my degree. The task was to, using either DirectX11/12 or OpenGL, create a program that would allow a user to customise their own building model and allow for exporting.
+This project was the first of three tasks assigned under the "Advanced Technologies" module during year three of my degree. The task was to, using either DirectX11/12 or OpenGL, create a program that would allow a user to customise their own building model and allow for exporting. Test
 
 
 #### Project Summary
