@@ -5,8 +5,8 @@ date:   2019-05-02 13:44:00
 author: Alex Stroud
 categories:
 - project
-img: DeepLearningThumbnail.png
-thumb: DeepLearningThumbnail.png
+img: BuildingGeneratorThumbnail.png
+thumb: BuildingGeneratorThumbnail.png
 carousel:
 - DeepLearning1.png
 - DeepLearning2.png
