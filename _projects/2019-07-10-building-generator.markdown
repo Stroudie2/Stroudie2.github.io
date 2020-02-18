@@ -32,10 +32,10 @@ If you would like to know more, please follow the link below to read the full pr
 [![Building Generator Report Download](https://i.gyazo.com/6ba372444b54578a43e8a0e946430a57.png)](https://drive.google.com/open?id=1LvaroDYy-7zH3ZcqxfAF6Z6hmCdUQyj9 "Report PDF")
 
 #### Building Generator Demonstration Video: Youtube Video
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/czlD6BzbxYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/czlD6BzbxYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Advanced Technologies - Showreel Video: Youtube
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/dm-c4ovVGrQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dm-c4ovVGrQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
