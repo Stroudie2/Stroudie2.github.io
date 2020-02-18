@@ -26,7 +26,5 @@ This game is a more simplistic version of Shadow of the Colossus, whereby the pl
 
 
 #### Shadow of Atari Gameplay: Youtube Video
-[![Shadow of Atari Gameplay](https://img.youtube.com/vi/XGFyR9oi8n4/0.jpg)](https://youtu.be/XGFyR9oi8n4 "Shadow of Atari Gameplay")
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XGFyR9oi8n4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
