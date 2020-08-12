@@ -33,4 +33,4 @@ Currently, this game is firmly in the early stages of development. A lot of the 
 
 #### Project Development Diary Playlist: Youtube
 Below you can find the playlist to where I am adding new development updates whenever a large amount of progress on the game has been made
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/R15glwdrvUc?list=PLX_GO8kUDNQ8lPdlOs0ln2FggPmdwSwM3" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R15glwdrvUc?list=PLX_GO8kUDNQ8lPdlOs0ln2FggPmdwSwM3" frameborder ="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
