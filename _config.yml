@@ -51,10 +51,10 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - University of the West of England,
-    - Frenchay Campus, Bristol, BS16 1QY,
+    - Basingstoke,
+    - Hampshire, RG22 4PJ,
     - United Kingdom.
-email: alexander2.stroud@live.uwe.ac.uk
+email: alexjamesstroud@gmail.com
 
 
 
@@ -63,7 +63,7 @@ email: alexander2.stroud@live.uwe.ac.uk
 # Members information. Shown on About page.
 members:
   - name: Alex Stroud
-    position: Student
+    position: BSc Hons Graduate In Games Technology
     text: I am a keen and passionate games developer, whose love of programming extends to mentoring others to allow them to develop games for themselves.
     img: profile_1.jpg
     social:
@@ -73,4 +73,4 @@ members:
         url: http://twitter.com/
  
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Junior games development graduate."
+about: "Junior Games Technology Graduate."
