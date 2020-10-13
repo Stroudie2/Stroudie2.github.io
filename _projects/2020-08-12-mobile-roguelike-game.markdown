@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Mobile Rogue-Like Game"
+title:  "Mobile Rogue-Like Game (Currently in Development)"
 date:   2020-01-29 15:18:00
 author: Alex Stroud
 categories:
