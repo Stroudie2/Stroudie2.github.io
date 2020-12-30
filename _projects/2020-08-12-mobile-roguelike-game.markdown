@@ -7,11 +7,9 @@ categories:
 - project
 img: RogueLikeThumbnail.png
 thumb: RogueLikeThumbnail.png
-carousel:
-- RogueLike1.png
-- RogueLike2.png
-- RogueLike3.png
-- RogueLike4.png
+RogueLike:
+- Rogue-Like_Gameplay_1.png
+- Rogue-Like_Gameplay_PickAbility.png
 tagged: C#, Programming, Development, Unity
 
 ---
@@ -36,3 +34,8 @@ The current state of the menu is going quite well, which you can find a dedicate
 #### Project Development Diary Playlist: Youtube
 Below you can find the playlist to where I am adding new development updates whenever a large amount of progress on the game has been made
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R15glwdrvUc?list=PLX_GO8kUDNQ8lPdlOs0ln2FggPmdwSwM3" frameborder ="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+#### Menu
+I'd like to now go through the menu scene of my project and explain all the features including some technical implementation.
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/RogueLike/Rogue-Like_Gameplay_1.png">
