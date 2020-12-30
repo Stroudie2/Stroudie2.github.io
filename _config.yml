@@ -54,7 +54,8 @@ address:
     - United Kingdom.
 email: alexjamesstroud@gmail.com
 
-
+include:
+  - "img"
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
