@@ -39,4 +39,5 @@ Below you can find the playlist to where I am adding new development updates whe
 #### Menu
 I'd like to now go through the menu scene of my project and explain all the features including some technical implementation.
 As a mobile game, the mneu scene features several different screens which the user can move between either by selecting one of the buttons at the bottom, or by dragging their finger across the screen. This was the first feature I set up, as I always planned for there to be multiple menus available. After spacing the panels out as children of my canvas component, I created a parent object called 'MenuScreens'. Here, I created a script to detect player drag input and in response, the parent of all the screens would be moved in order to position the relevant menu in the display window.
+
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_Gameplay_1.png?raw=true">
