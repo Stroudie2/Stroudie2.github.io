@@ -43,34 +43,44 @@ I'd like to now go through the menu scene of my project and explain all the feat
 ## Menu Interaction
 ### Drag Detection
 As a mobile game, the menu scene features several different screens which the user can move between either by selecting one of the buttons at the bottom, or by dragging their finger across the screen. This was the first feature I set up, as I always planned for there to be multiple menus available. After spacing the panels out as children of my canvas component, I created a parent object called 'MenuScreens'. Here, I created a script to detect player drag input and in response, the parent of all the screens would be moved in order to position the relevant menu in the display window. In an 'OnDrag' function, which takes in PointerEventData, the amount the player has dragged in the 'x' axis is calculated.
+
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_OnDragFunction.png?raw=true">
+
 As we drag, we constantly update the RectTransform's local position to be the starting position minus the amount dragged. This keeps the screen moving with the drag.
 In the 'OnEndDrag' function, it calculates the amount dragged as a percentage of the width of a screen panel. If this percentage is more than a set threshold of 50%, a function is called on the 'UIController' to calculate the response. This function calculates the distance between each of the five menu screens and the current anchored position of the parent object. Whichever screen is detected as the closest is the one we will slide the display towards upon releasing the drag detection.
+
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_CheckDragMovement.png?raw=true">
 
 ### Button Presses
 Button presses for the different menus link to a 'ChangeMenu' function in the UIController. In here we detect which button was pressed by casting the integer to it's relevant enum value. 
+
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ChangeMenu.png?raw=true">
+
 This will then call the function for that menu screen which moves the parent object into view.
 
 ## Inventory Details
 Most of the menu screens currently don't contain much data, apart from the inventory menu, which is where most of the work has currently been dedicated to.
 ### Refresh Inventory
 When we select the inventory menu, we first call an event to refresh our player's inventory. This event is subscribed to a function 'RefreshInventory' on the GameManager object. More about script communication later on. This refresh function goes through an ordered process. It first checks if there are any existing items in the player's inventory to be loaded in. It currently does this by checking a specific folder in the device's persistent data path, under the game save data. We check the number of folders representing unique item IDs and return this to the GameManager.
+
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_GetNumberOfClassItems.png?raw=true">
+
 If there are any existing items for the player, we add them to a list which is then passed to the sorting function before invoking an event to create the prefabs for these items.
 The next step of the refresh process is to determine if any new items have been picked up through playing the game and add these to the current list of items to load. To achieve this, we check the list of enum values stored on the class data Scriptable Object used in-game. For each of these new items we invoke another event to spawn the prefabs for new items.
 ### Instantiating Item Prefabs
 The two functions for instantiating item prefabs work similarly. One is for existing items and the other is for creating new items for the first time. When creating a new item prefab, we pass in the details of what item type it will be(weapon, armour etc), and the specific item enum. We then instantiate a prefab for the type of item, and create a new scriptable object to hold the data of this specific item. The data file will be used to save all the details of this item between scene changes and when opening and closing the game. Every time a change is made to an item, it'll overwrite the saved data for it. As part of this process, we assign each data file a random id value on creation, which is unique to that specific item. We use this id value in the saving process too.
+
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ItemDataID.png?raw=true">
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_Menu_ItemFolderView.png?raw=true">
 
 After creating a new data file for each item, we assign some of the default values based on what we know about the item already. Most of these base values are predefined in a serialised Dictionary in the engine inspector.
+
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ItemDictionaryInspector.png?raw=true">
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ItemDictionaryCode.png?raw=true">
 
 This means that throughout the development process I can easily change values for testing processes which will effect any items I equip.
 As well as the data file, we also have to fill in the data we use for serialising the prefab in the game. We assign the data to the script attached to the prefab of the GameObject, which will be used until the inventory is next refreshed. Finally we assign the click event to the button representing the item in the inventory display. This means that when the item is pressed, it will open the ItemOverlay screen and know the data specific to the item pressed.
+
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_Menu_InventoryMenu.png?raw=true">
 
 The function for existing items works mostly the same. The only difference here is that instead of filling the data file with default data, we fill it with the saved data from this item that already existed before.
