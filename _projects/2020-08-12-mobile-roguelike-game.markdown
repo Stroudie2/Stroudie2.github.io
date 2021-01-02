@@ -39,6 +39,18 @@ The current state of the menu is going quite well, which you can find a dedicate
 
 ### Menu
 I'd like to now go through the menu scene of my project and explain all the features including some technical implementation.
-As a mobile game, the menu scene features several different screens which the user can move between either by selecting one of the buttons at the bottom, or by dragging their finger across the screen. This was the first feature I set up, as I always planned for there to be multiple menus available. After spacing the panels out as children of my canvas component, I created a parent object called 'MenuScreens'. Here, I created a script to detect player drag input and in response, the parent of all the screens would be moved in order to position the relevant menu in the display window.
 
-<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_Gameplay_1.png?raw=true">
+#### Menu Interaction
+##### Drag Detection
+As a mobile game, the menu scene features several different screens which the user can move between either by selecting one of the buttons at the bottom, or by dragging their finger across the screen. This was the first feature I set up, as I always planned for there to be multiple menus available. After spacing the panels out as children of my canvas component, I created a parent object called 'MenuScreens'. Here, I created a script to detect player drag input and in response, the parent of all the screens would be moved in order to position the relevant menu in the display window. In an 'OnDrag' function, which takes in PointerEventData, the amount the player has dragged in the 'x' axis is calculated.
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_OnDragFunction.png?raw=true">
+As we drag, we constantly update the RectTransform's local position to be the starting position minus the amount dragged. This keeps the screen moving with the drag.
+In the 'OnEndDrag' function, it calculates the amount dragged as a percentage of the width of a screen panel. If this percentage is more than a set threshold of 50%, a function is called on the 'UIController' to calculate the response. This function calculates the distance between each of the five menu screens and the current anchored position of the parent object. Whichever screen is detected as the closest is the one we will slide the display towards upon releasing the drag detection.
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_CheckDragMovement.png?raw=true">
+
+##### Button Presses
+Button presses for the different menus link to a 'ChangeMenu' function in the UIController. In here we detect which button was pressed by casting the integer to it's relevant enum value. 
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ChangeMenu.png?raw=true">
+This will then call the function for that menu screen which moves the parent object into view.
+
+#### Inventory Details
