@@ -68,9 +68,11 @@ The two functions for instantiating item prefabs work similarly. One is for exis
 After creating a new data file for each item, we assign some of the default values based on what we know about the item already. Most of these base values are predefined in a serialised Dictionary in the engine inspector.
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ItemDictionaryInspector.png?raw=true">
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ItemDictionaryCode.png?raw=true">
+
 This means that throughout the development process I can easily change values for testing processes which will effect any items I equip.
 As well as the data file, we also have to fill in the data we use for serialising the prefab in the game. We assign the data to the script attached to the prefab of the GameObject, which will be used until the inventory is next refreshed. Finally we assign the click event to the button representing the item in the inventory display. This means that when the item is pressed, it will open the ItemOverlay screen and know the data specific to the item pressed.
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_Menu_InventoryMenu.png?raw=true">
+
 The function for existing items works mostly the same. The only difference here is that instead of filling the data file with default data, we fill it with the saved data from this item that already existed before.
 
 ### Item Overlay
