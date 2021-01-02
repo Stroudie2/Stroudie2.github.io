@@ -13,13 +13,9 @@ carousel:
 tagged: C#, Programming, Development, Unity
 
 ---
-# Contents
-1. The test
+## Contents
+- TOC
 {:toc}
-
-# Test header 1
-
-## Test header 2
 
 #### Mobile Rogue-Like Game (History)
 
