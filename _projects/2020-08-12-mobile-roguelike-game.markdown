@@ -14,7 +14,6 @@ tagged: C#, Programming, Development, Unity
 
 ---
 # Contents
-{:.no_toc}
 * TOC
 {:toc}
 
