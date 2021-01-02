@@ -14,8 +14,8 @@ tagged: C#, Programming, Development, Unity
 
 ---
 ## Contents
-* TOC
-* TEST
+1. Mobile Rogue-Like Game (History)
+2. Differences With This Game
 {:toc}
 
 ## TOC
