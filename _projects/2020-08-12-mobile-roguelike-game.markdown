@@ -32,9 +32,7 @@ Below you can find the playlist to where I am adding new development updates whe
 
 # Development Stage
 
-Currently, this game is firmly in the early stages of development. A lot of the core gameplay mechanics through the level are there, but variety in characters, or weapons or enemies is still limited as these are quite big areas to expand on. I am currently in the process of planning out how the main menu scene of the game will operate, which will be where the player controls everything outside of the chapter gameplay relating to character customisation etc. As I continue to work on this project, I will update this page further.
-
-The current state of the menu is going quite well, which you can find a dedicated video to in the playlist below. There are currently multiple menu screens working inluding especially the inventory screen, where a player can 'equip' and upgrade their various obtained equipment through the game. This will cost them from their global coins, which are accumulated through each playt-through of a level.
+Currently, this game is firmly in the early stages of development. A lot of the core gameplay mechanics through the level are there, but variety in characters, or weapons or enemies is still limited as these are quite big areas to expand on. I am currently in the process of working more in-depth on the menu scene and specifically the customisation of items. The next step after this will be to start having the changes made to items in the menu affect the stats of the player within the gameplay.
 
 
 # Menu
