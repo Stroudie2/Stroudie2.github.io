@@ -84,3 +84,42 @@ As well as the data file, we also must fill in the data we use for serialising t
 The function for existing items works mostly the same. The only difference here is that instead of filling the data file with default data, we fill it with the saved data from this item that already existed before.
 
 ## Item Overlay
+The Item Overlay is a panel used for displaying and adjusting the details of specific items in the game. It is here that the player has direct control over how to change and upgrade their items. When a player presses on an item in the inventory, the overlay will be displayed and will show important details including the Item's name, rarity level, a description as well as how the stats for the player will be adjusted with this item equipped. There are then various buttons for the player to choose from including an 'equip/unequip' button, setting this as the current item in use for whatever sub type of item it is. There is also an upgrade button which will require a certain amount of currency obtained to complete and a customise button, where the item can be more adjusted to suit a specific playstyle.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_Menu_ItemOverview.png?raw=true">
+
+The data for this overlay is determined by the item that has been pressed. When we instantiate each of the items in the inventory, we add a listener to their button overlay, which is subscribed to the 'OpenItemOverlay' function through the code. This function takes in the GameObject of the specific item as a parameter, so that it can then get the item details stored on a script in each item prefab. It uses this data to set the various elements of the overlay so each time an item is pressed it will be the data for that specific item.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ItemOverlayOnClick.png?raw=true">
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ItemOverlayFunctionHeader.png?raw=true">
+
+## Upgrading An Item
+There are two forms of upgrading the stats of an item. Levelling up, and merging.
+
+### Levelling Up Items
+Levelling an item up is done through the item overlay where when opened we subscribe the Upgrade button to a function 'UpgradeItem' which takes in the prefab of the item object we use in the overlay. The first thing this function does is determine the type of item we are wanting to upgrade. It does this with null checks. If the weapon script component is attached to this item, then we know we are dealing with a weapon.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_WeaponItemNullCheck.png?raw=true">
+
+Once we have the correct data script for the item we wish to upgrade, we must first go through some checks. Each item has a currentLevel and maximumLevel value. The maximumLevel is based on the rarity level of the item. Before we upgrade, we make sure that the item is currently below the max level. We also must check if the user has enough coins picked up in order to upgrade to the next level. Each level up will increase the coin cost of the next upgrade, so that the player is encouraged to play more and save up their currency.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_MaxLvl&CoinCheck.png?raw=true">
+
+If the item passes these checks, we then upgrade the level and stats of this item.
+The stat change per each level is also based on the rarity of an item. When we instantiate each prefab, there are dictionary defined values for the change per level, and when we increase the rarity of an item, all the current stats must be re-calculated accordingly to fit with the stat adjustment per level.
+The final step of levelling up an item is to re-calculate the coins needed for the next level up. There are functions containing algorithms for setting these values each time an item is upgraded.
+
+### Merging Items
+Merging an item takes place from the inventory grid screen. Above the items there are two buttons, one for sorting the order of items, and one for merging them together. When the merge button is pressed, the player is brought to a merging screen and the inventory is re-ordered by items marked as 'mergable' first. An item is mergable when there are at least two other items of the same type and rarity in the player's inventory. For example, if I have three common bows, they would all be marked as mergable items and so would appear at the top of the inventory.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ItemMergeScreen.png?raw=true">
+
+When any item in the inventory is pressed, it is moved to the first merge slot and all items that are not of the same type and rarity are blocked from pressing, indicating to the player what other items are able to be merged with the selected item.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ItemSelectedMergeScreen.png?raw=true">
+
+Once the player has filled all three slots, a new 'merge' button will appear. When this is pressed, the second and third selected items will be destroyed and removed from the player's inventory. If they had been upgraded through levelling up, the player will be rewarded the coins spent on upgrading them. The first selected item will become the newly upgraded item. It will keep it's same level but will have increased to the next rarity higher. This will then increase the level up cap, as well as increase some of the base stats of the item, to make it more useful. In the future I may also add unique bonuses to the higher rarity items.
+The item's rarity is upgraded through the 'UpgradeItemRarity' function. Using the ItemData of the first placed item, we determine what the item of the next rarity higher will be. This currently involves a big switch statement in which we set the specific itemType depending on what the previous item's rarity was. We then determine what sub-type of item it is and create new Data files for the 'new' item.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_UpgradeItemRarity1.png?raw=true">
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_UpgradeItemRarity2.png?raw=true">
