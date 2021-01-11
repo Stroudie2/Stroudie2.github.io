@@ -123,3 +123,19 @@ The item's rarity is upgraded through the 'UpgradeItemRarity' function. Using th
 
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_UpgradeItemRarity1.png?raw=true">
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_UpgradeItemRarity2.png?raw=true">
+
+## Equipping Items
+Currently, the equipping of an item does not do so much other than visually display on the inventory. Above the list of items the player has obtained, there are slots for a weapon and armour. In the future there will be additional slots for the other types of equipment. When the player selects an item from the inventory, there is an 'equip/unequip' button found next to the upgrade button. When this is pressed, the item is moved towards the corresponding slot and removed from the full list of items. It is marked in the code as 'equipped' so that when the game is re-loaded, it knows to display the item in the correct slot.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_EquippedItem.png?raw=true">
+
+### Equip Code
+In the code, we first determine the sub type of the item we are equipping. Based on this, we know what location we will want to move the item to. We also assign a swap position for when there is already an equipped item which we will replace. The current equipped item will be animated back to this location before being added to the list again.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_EquipItemInitialCode.png?raw=true">
+
+After determining where we are going to move the item to, we do this using a tweening animation library, known as 'DOTween'. We move the item to the location of the slot before parenting it to the slot. We then update the item's data script to set it as 'equipped' this means when the user re-selects the item in the slot, it will know to change the text on the button to say 'unequip' instead of 'equip'.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_UnequipButton.png?raw=true">
+
+In the future, as the player equips different items, there will be some stat values displayed on the screen which you will see automatically update accordingly.
