@@ -139,3 +139,58 @@ After determining where we are going to move the item to, we do this using a twe
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_UnequipButton.png?raw=true">
 
 In the future, as the player equips different items, there will be some stat values displayed on the screen which you will see automatically update accordingly.
+
+## Customising Items
+While developing my item system, I considered the possibility of giving the player as much control over how their item behaves as possible. The idea of customising each item to their liking. This brought me to my current system, (the most recent project addition) whereby the user can assign points to each of their items to adjust specific attributes.
+
+### Item Attributes
+Item attributes are the specific stats that are relevant to different types of equipment. As such, all types have their own attributes the player can choose to focus on. Currently, this is specific to weapons, as I am yet to plan out what some of the attributes of my other item types might be.
+With weapons, there are common traits across all of them. These are the amount of damage a weapon outputs, the speed at which it can attack (attack speed), the chance of a critical hit, and the accuracy (currently refers to projectile speed).
+
+### Customise Screen
+When the player selects an item in their inventory and presses the 'customise' button, they are brought to a customise screen. This shows them the current value of the various attributes for this item as mentioned above.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_CustomiseScreen.png?raw=true">
+
+Below the current values is a separate section, informing the player of the current points they can spend on this item (10 max) and several bars representing the attributes. Each of these bars contains 'point bars' to show the number of points assigned to each attribute. This information is also shown through the number value on the right side.
+When the player presses either side of one of the bars, a point is either added or subtracted to the specific attribute and re-calculates the remaining allocation points available.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_CustomiseScreenPointApplied.png?raw=true">
+
+#### Attribute Rules
+There are certain rules about how a player can assign attributes. Although having 10 points to spend across the different attributes, there is also a maximum amount that can be allocated to each, depending on the rarity of the item. For example, a common item will only allow a maximum of two points to be assigned into each attribute. Applying any more will cause an error message to be displayed.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_CustomiseScreenErrorMessage.png?raw=true">
+
+This means that the player can still assign two points into each attribute, but they are encouraged to merge into a higher rarity if they wish to apply more into each. The uniqueness of items comes at a higher rarity, where a player must choose how they want to spread out their ten points. They can choose to spend it all on damage, while sacrificing their other attributes, or they could go all in on maxing out their crit chance. The choice is up to the player, and how they prefer to play. If they apply a certain number of points into a specific attribute, they will receive a buff related to that stat. For example, five points into damage will give them a further added boost specifically for focusing on this attribute. If the player chooses to spend all ten of their points on one attribute (which will require a higher rarity item), my current plan is that they will receive a unique ability that can be obtained in-game (only obtainable through customisation).
+
+### Code
+The first part of the customise function is to determine what stats to be displayed at the top of the screen. This is done with a switch statement on the item type. Therefore, whatever item is being customised, it will have the correct attributes displayed. 
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_CustomiseItemSwitchStatement.png?raw=true">
+
+We set the value of these attributes in a separate function called 'RefreshCustomItemData'. The stat values are saved on the saved item's data file after being initially defined in the item dictionary mentioned earlier.
+Similarly, the number of spent points for each attribute and remaining points is also saved to each item and is updated whenever a change is made.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_CustomiseItemRefreshItemData.png?raw=true">
+
+Once the current stat values are displayed, we then add listeners to the various buttons of the attributes through code. We assign the add and subtract buttons to an 'AdjustItemStatCustomPoints' function, and additionally assign the button for the middle section of the box to a new function for displaying more details about the specific attribute. The function for adjusting stat points takes in a bool value (addition or subtraction), the data file for the item and an enum value representing which of the four attributes are being adjusted. We then check if the item has any customise points remaining before applying to the relevant attribute.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_CustomiseItemAdjustPoints1.png?raw=true">
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_CustomiseItemAdjustPoints2.png?raw=true">
+
+### Attribute Details Screen
+If the player presses on the centre of one of the four attributes for an item, they are brought to a new screen, which will display more details about the selected stat.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_AttributeDetailsScreen.png?raw=true">
+
+This screen will display the item details at the top of the screen, including the name, level, and specific stat we are customising. There is another bar displaying the number of points used for this stat, similar to the customise screen. These can be re-adjusted here using the plus and minus buttons. If the user adjusts the points here, they will see in the box below the difference to the stat value with the current points applied. Additionally, if one of the individual points is pressed in the bar, another box will appear. This box informs the user of the changes that will apply with this specific point applied.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_AttributeDetailsPointPressed.png?raw=true">
+
+Currently, most of the points will display the same information as they will increase the stat by the same amount. If the user presses the fifth or tenth point however, it will tell them the aditional bonus they get for having so many points into this attribute applied.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_AttributeDetailsFifthPointPressed.png?raw=true">
+
+If the player is currently unable to apply the number of points they are viewing the details of, this will be explained to them in a separate box, as well as inform them what they need to do to obtain this point. This allows the player to have full understanding of how their item points have been applied, and how they can further improve it to their liking.
