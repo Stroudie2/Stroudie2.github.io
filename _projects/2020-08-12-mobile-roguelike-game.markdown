@@ -213,8 +213,7 @@ In the future, there will be sprites to represent the various characters. This s
 At the top of this screen are stat details for the current class, as well as their current class level. Different classes will be tailored towards specific stat types. Levelling up a class (by using in-game) is how the player will unlock additional playable characters.
 In the list of classes, there will be several details viewable to the player, including a description of each class and icons to represent their various equipment which can be used. In the future I will probably make a more detailed screen or when a class is pressed, more details will be displayed to the player. If a class is pressed currently, the player will be given the choice to switch their current class. Once selected, the stats displayed above will be adjusted to represent the newly selected class.
 
-<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ClassChange.png?raw=true">
-<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_MageClassSelected.png?raw=true">
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ClassChange.png?raw=true"> <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_MageClassSelected.png?raw=true">
 
 Returning to the character select screen will display the unlocked characters for this newly selected class and returning once again to the inventory will refresh it with the equipment for this class.
 
