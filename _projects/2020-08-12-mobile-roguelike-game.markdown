@@ -194,3 +194,28 @@ Currently, most of the points will display the same information as they will inc
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_AttributeDetailsFifthPointPressed.png?raw=true">
 
 If the player is currently unable to apply the number of points they are viewing the details of, this will be explained to them in a separate box, as well as inform them what they need to do to obtain this point. This allows the player to have full understanding of how their item points have been applied, and how they can further improve it to their liking.
+
+## Classes
+When designing my game, there was a particular issue that I wanted to address. As a long-time player of these mobile rogue-like games, I have paid attention to some of the key design issues that enthusiastic players have problems with. The main one of these seems to be the RNG (Random Number Generation) when it comes to dropping loot for a player. Due to the developers creating such a large pool of items, it makes it extremely unlikely for a player to receive a drop for an item they want or use. This leads to frustration over having to endlessly grind for the small chance of getting the item they want. As such, I have designed the class system to help alleviate this problem.
+
+### Class Items
+With this system, the items a player can be in possession of are linked to each of the various class types. This will include for example, two similar types of weapon, such as bows and crossbows for the Archer class. While a player is using a specific class, they will only receive item drops relevant to their selected class. This means they will not receive a random weapon that they would have to change classes to use. This is also advantageous because it allows for the player to grow each class separately from one another and find their preferred playstyle. Eventually this could lead to more of the game's content being focused on specific class types such as unique levels or challenges.
+
+## Changing Classes
+Currently, the player will see the option from their inventory to change characters. When this button is pressed, a new screen will be displayed with all the available characters of their current class.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_CharacterSelectScreen.png?raw=true">
+
+In the future, there will be sprites to represent the various characters. This screen will show the player what some of the default stats are for the chosen character. Unlocking new characters within a class can slightly improve these various stats. It is currently planned for each character to have their own levelling system. On this screen there is also a button to change the selected class. This will again open another new screen, with a list of all the classes available.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ClassSelectScreen.png?raw=true">
+
+At the top of this screen are stat details for the current class, as well as their current class level. Different classes will be tailored towards specific stat types. Levelling up a class (by using in-game) is how the player will unlock additional playable characters.
+In the list of classes, there will be several details viewable to the player, including a description of each class and icons to represent their various equipment which can be used. In the future I will probably make a more detailed screen or when a class is pressed, more details will be displayed to the player. If a class is pressed currently, the player will be given the choice to switch their current class. Once selected, the stats displayed above will be adjusted to represent the newly selected class.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ClassChange.png?raw=true">
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_MageClassSelected.png?raw=true">
+
+Returning to the character select screen will display the unlocked characters for this newly selected class and returning once again to the inventory will refresh it with the equipment for this class.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_MageInventory.png?raw=true">
