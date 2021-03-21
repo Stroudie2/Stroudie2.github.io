@@ -144,8 +144,8 @@ In the future, as the player equips different items, there will be some stat val
 While developing my item system, I considered the possibility of giving the player as much control over how their item behaves as possible. The idea of customising each item to their liking. This brought me to my current system, (the most recent project addition) whereby the user can assign points to each of their items to adjust specific attributes.
 
 ### Item Attributes
-Item attributes are the specific stats that are relevant to different types of equipment. As such, all types have their own attributes the player can choose to focus on. Currently, this is specific to weapons, as I am yet to plan out what some of the attributes of my other item types might be.
-With weapons, there are common traits across all of them. These are the amount of damage a weapon outputs, the speed at which it can attack (attack speed), the chance of a critical hit, and the accuracy (currently refers to projectile speed).
+Item attributes are the specific stats that are relevant to different types of equipment. As such, all types have their own attributes the player can choose to focus on. Currently, this has only be implemented for weapons and armours, as I am yet to plan out what some of the attributes of my other item types might be.
+With weapons, there are common traits across all of them. These are the amount of damage a weapon outputs, the speed at which it can attack (attack speed), the chance of a critical hit, and the accuracy (currently refers to projectile speed). For armour types, there are attributes for the amount of Player health, their armour protection (hits taken with no damage), elemental damage protection, and bonus movement speed.
 
 ### Customise Screen
 When the player selects an item in their inventory and presses the 'customise' button, they are brought to a customise screen. This shows them the current value of the various attributes for this item as mentioned above.
@@ -218,3 +218,36 @@ In the list of classes, there will be several details viewable to the player, in
 Returning to the character select screen will display the unlocked characters for this newly selected class and returning once again to the inventory will refresh it with the equipment for this class.
 
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_MageInventory.png?raw=true">
+
+## Saving Gameplay Data for Resume
+As a mobile game, it is important that the player has the option to resume their current progress in a level for when they have closed the game before finishing a level, for whatever reason. As such, the next big part of the game's development has been implementing the saving and loading of their current progress through a level. There are several parts to this because various types of data are updated at different intervals.
+
+### Initial Gameplay Save
+When the player has selected their chosen level (currently there is only one level scene) and presses the 'Play' button from the menu, we save a new file and folder to the device persistent data path, which indicates the player has started a new run of the level. From this point, whenever the game is launched, we will check whether this folder exists. If it does, then the system knows the player has game progress they may want to resume. We then display a new pop-up asking the player if they would like to resume their progress or not.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_GameplayFolder.png?raw=true"> <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ResumePanel.png?raw=true">
+
+Currently, this is quite basic, with the option to either resume progress, or cancel and delete their current progress. In the future, I would like this panel to provide additional details to the player about their current progress, such as what stage they have reached.
+
+The initial save function is made up of multiple sub-data types, including the player's stats (health, damage etc) and the room data for the level.
+
+#### Level Room Order
+If a level is launched without resuming, the stage manager will now create a random order for the rooms to appear in. Previously, it was calculated each time a player moved to a new room what would come next, but this was not particularly useful for the resume feature, as I want the experience to directly carry on from when the player closed the game
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_StageManagerTransforms.png?raw=true">
+
+This is done through a new function which creates a list of transforms for the starting point of each room when the player enters. For however many sets there are of ten rooms in any level, I first pick four random normal rooms, followed by a randomly selected 'angel room', then another four normal rooms, before finally picking a boss room to finish off each set of 10. After the whole level has been ordered, I insert the starting room into the first index of the list 
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_SetupRoomOrder.png?raw=true">
+
+This creates our full ordered level of rooms. After the initial setup, the names of each room are saved to a list of strings in a file, which makes up the room data, along with the current room of the player. When the level is resumed, we use this string list to re-create the correct room order and place the player in their last completed room.
+
+### End of Room Gameplay Saving
+After the initial save has been created, each big update to the saved data is performed when a room has been marked as completed. For this, we make sure the saved stats for the player are up to date, and we also save the list of potential items they may have picked up from a level as well as the next room completed value. The advantage of having the big data save at the end of a room is that there is then no potential disruption during regular playing, which could cause the player to lose focus, particularly if using an older mobile device.
+
+### Regular Minor Gameplay Saving
+Currently, there are only a few situations where data is saved regularly, such as the player's health stats. This is so a player cannot get a 'free pass' when attempting to restart their device to perform better in a room. Whenever a change is made to the player's current health or max health, a small save function is called to update these specific values. As this is only a small amount of data being exported, it does not cause any slowdown to the constant gameplay 
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_SaveNewHealthData.png?raw=true">
+
+The only other minor saves that currently exist are for when the player levels up, so that we can keep their current exp values when resuming, and whenever a new ability is selected, so that it can continue to be used should the player resume their game.
