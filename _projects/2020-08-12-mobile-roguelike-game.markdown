@@ -225,7 +225,8 @@ As a mobile game, it is important that the player has the option to resume their
 ### Initial Gameplay Save
 When the player has selected their chosen level (currently there is only one level scene) and presses the 'Play' button from the menu, we save a new file and folder to the device persistent data path, which indicates the player has started a new run of the level. From this point, whenever the game is launched, we will check whether this folder exists. If it does, then the system knows the player has game progress they may want to resume. We then display a new pop-up asking the player if they would like to resume their progress or not.
 
-<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_GameplayFolder.png?raw=true"> <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ResumePanel.png?raw=true">
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_GameplayFolder.png?raw=true"> 
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_ResumePanel.png?raw=true">
 
 Currently, this is quite basic, with the option to either resume progress, or cancel and delete their current progress. In the future, I would like this panel to provide additional details to the player about their current progress, such as what stage they have reached.
 
