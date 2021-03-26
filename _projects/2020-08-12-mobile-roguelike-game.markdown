@@ -256,8 +256,7 @@ The only other minor saves that currently exist are for when the player levels u
 #### Exp & Coin Saving
 Whenever a room has been marked as completed, there is a process of finding all the coin prefabs and adding their total value to calculate how many coins the player has gained for this room. This value is then sent to the PlayerData script through an event, where we add this room's coins to the player's total amount. Once the player's total is updated, the UI controller begins to animate the change in coins, and a new save event is called for updating the saved total.
 
-<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_SaveNewPlayerCoinData.png?raw=true">
-<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_UpdateSavedPlayerCoins.png?raw=true">
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_SaveNewPlayerCoinData.png?raw=true"> <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_UpdateSavedPlayerCoins.png?raw=true">
 
 As well as each coin prefab containing a coinValue, there is also an additional value for how much exp the player gains. Whenever the player comes into contact with one of the coins, a new event is sent to the PlayerData, containing the amount of exp to be added.
 
