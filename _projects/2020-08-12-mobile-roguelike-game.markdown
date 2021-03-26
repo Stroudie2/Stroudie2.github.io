@@ -247,8 +247,36 @@ This creates our full ordered level of rooms. After the initial setup, the names
 After the initial save has been created, each big update to the saved data is performed when a room has been marked as completed. For this, we make sure the saved stats for the player are up to date, and we also save the list of potential items they may have picked up from a level as well as the next room completed value. The advantage of having the big data save at the end of a room is that there is then no potential disruption during regular playing, which could cause the player to lose focus, particularly if using an older mobile device.
 
 ### Regular Minor Gameplay Saving
-Currently, there are only a few situations where data is saved regularly, such as the player's health stats. This is so a player cannot get a 'free pass' when attempting to restart their device to perform better in a room. Whenever a change is made to the player's current health or max health, a small save function is called to update these specific values. As this is only a small amount of data being exported, it does not cause any slowdown to the constant gameplay 
+Currently, there are only a few situations where data is saved regularly, such as the player's health stats. This is so a player cannot get a 'free pass' when attempting to restart their device to perform better in a room. Whenever a change is made to the player's current health or max health, a small save function is called to update these specific values. As this is only a small amount of data being exported, it does not cause any slowdown to the constant gameplay
 
 <img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_SaveNewHealthData.png?raw=true">
 
-The only other minor saves that currently exist are for when the player levels up, so that we can keep their current exp values when resuming, and whenever a new ability is selected, so that it can continue to be used should the player resume their game.
+The only other minor saves that currently exist are for when the player levels up, so that we can keep their current exp values when resuming, and whenever a new ability is selected, so that it can continue to be used, should the player resume their game. You can find below an example of this, using the exp data. This is the same process used for the saved abilities.
+
+#### Exp & Coin Saving
+Whenever a room has been marked as completed, there is a process of finding all the coin prefabs and adding their total value to calculate how many coins the player has gained for this room. This value is then sent to the PlayerData script through an event, where we add this room's coins to the player's total amount. Once the player's total is updated, the UI controller begins to animate the change in coins, and a new save event is called for updating the saved total.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_SaveNewPlayerCoinData.png?raw=true">
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_UpdateSavedPlayerCoins.png?raw=true">
+
+As well as each coin prefab containing a coinValue, there is also an additional value for how much exp the player gains. Whenever the player comes into contact with one of the coins, a new event is sent to the PlayerData, containing the amount of exp to be added.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_PlayerExpCalc.png?raw=true">
+
+After calculating the player's current level data, we call another save function which will update the stored level and exp-related data.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_UpdateExpStats.png?raw=true">
+
+#### Exp Loading When Resumed
+Now that the current exp data is saved to file each time the player obtains a pickup, we can use this saved data when the player chooses to resume their progress.
+In our setup function for when the game has resumed progress, we first get the needed data from file, to be used for inititalisation.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_UpdateStatsRequest.png?raw=true">
+
+When the request events are invoked, the save manager will automatically find the required save data and send it back to the PlayerData class, ready to be used.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_SendExpDataToPlayerData.png?raw=true">
+
+Once the saved data has been obtained, it can now be used to initialise UI elements such as the exp bar and level number to where they previously were left, by updating the values which control these.
+
+<img src ="https://github.com/Stroudie2/Stroudie2.github.io/blob/master/assets/img/project/carousel/Rogue-Like_AssignSavedExpData.png?raw=true">
